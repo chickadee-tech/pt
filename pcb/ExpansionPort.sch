@@ -30,7 +30,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:ckd_sandwich
 LIBS:ti-gate
-LIBS:FCExpansion-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -54,7 +53,7 @@ F 1 "CKD_SANDWICH" H 2850 -2400 60  0000 C CNN
 F 2 "hirose-df40:DF40-80pin-Header" H 2850 -2550 60  0001 C CNN
 F 3 "" H 2850 -2550 60  0000 C CNN
 	1    2850 1650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L CKD_SANDWICH PORT_OUT1
@@ -65,7 +64,7 @@ F 1 "CKD_SANDWICH" H 6150 -2400 60  0000 C CNN
 F 2 "hirose-df40:DF40-3-4mm-80pin-Receptacle" H 6150 -2550 60  0001 C CNN
 F 3 "" H 6150 -2550 60  0000 C CNN
 	1    6150 1650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L AT24CS02-MAHM PORT_IC1
@@ -76,7 +75,7 @@ F 1 "AT24CS02-MAHM" H 9300 1550 40  0000 C CNN
 F 2 "Housings_DFN_QFN:DFN-8-1EP_3x2mm_Pitch0.5mm" H 9000 1850 35  0000 C CIN
 F 3 "" H 9000 1850 60  0000 C CNN
 	1    9000 1850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L SN74LVC1G58 PORT_INV1
@@ -87,7 +86,7 @@ F 1 "SN74LVC1G58" H 9000 3050 60  0000 C CNN
 F 2 "Housings_SOT-23_SOT-143_TSOT-6:SC-70-6_Handsoldering" H 9000 5200 60  0001 C CNN
 F 3 "" H 9000 3000 60  0000 C CNN
 	1    9000 3000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L SN74LVC1G58 PORT_XOR1
@@ -98,7 +97,7 @@ F 1 "SN74LVC1G58" H 9000 4100 60  0000 C CNN
 F 2 "Housings_SOT-23_SOT-143_TSOT-6:SC-70-6_Handsoldering" H 9000 5200 60  0001 C CNN
 F 3 "" H 9000 4050 60  0000 C CNN
 	1    9000 4050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L SN74LVC1G0832 PORT_ANDOR1
@@ -109,7 +108,7 @@ F 1 "SN74LVC1G0832" H 9000 5200 60  0000 C CNN
 F 2 "Housings_SOT-23_SOT-143_TSOT-6:SC-70-6_Handsoldering" H 9000 5200 60  0001 C CNN
 F 3 "" H 9000 5200 60  0000 C CNN
 	1    9000 5200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 2150 2900 2    60   ~ 0
 HEIGHT_4
@@ -146,7 +145,7 @@ F 1 "GNDPWR" H 4350 3870 50  0000 C CNN
 F 2 "" H 4350 3950 60  0000 C CNN
 F 3 "" H 4350 3950 60  0000 C CNN
 	1    4350 4000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR?
@@ -157,7 +156,7 @@ F 1 "+5V" H 1500 3640 50  0000 C CNN
 F 2 "" H 1500 3500 60  0000 C CNN
 F 3 "" H 1500 3500 60  0000 C CNN
 	1    1500 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2150 3500 2150 4000
@@ -194,7 +193,7 @@ F 1 "GNDPWR" H 7700 3870 50  0000 C CNN
 F 2 "" H 7700 3950 60  0000 C CNN
 F 3 "" H 7700 3950 60  0000 C CNN
 	1    7700 4000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6850 3300 6850 4000
@@ -223,7 +222,7 @@ F 1 "GNDPWR" H 7650 5620 50  0000 C CNN
 F 2 "" H 7650 5700 60  0000 C CNN
 F 3 "" H 7650 5700 60  0000 C CNN
 	1    7650 5750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8350 5450 7650 5450
@@ -240,7 +239,7 @@ F 1 "GNDPWR" H 7650 4470 50  0000 C CNN
 F 2 "" H 7650 4550 60  0000 C CNN
 F 3 "" H 7650 4550 60  0000 C CNN
 	1    7650 4600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 9650 5300 0    60   ~ 0
 HEIGHT_4
@@ -267,7 +266,7 @@ F 1 "GNDPWR" H 7650 3470 50  0000 C CNN
 F 2 "" H 7650 3550 60  0000 C CNN
 F 3 "" H 7650 3550 60  0000 C CNN
 	1    7650 3600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 8500 3100 2    60   ~ 0
 HEIGHT_1
@@ -284,7 +283,7 @@ F 1 "GNDPWR" H 9000 2120 50  0000 C CNN
 F 2 "" H 9000 2200 60  0000 C CNN
 F 3 "" H 9000 2200 60  0000 C CNN
 	1    9000 2250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 9400 1750 0    60   ~ 0
 si2c_SDA
@@ -301,7 +300,7 @@ F 1 "10k" H 8430 2010 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 8400 2050 60  0001 C CNN
 F 3 "" H 8400 2050 60  0000 C CNN
 	1    8400 2050
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	8600 2050 8500 2050
@@ -316,7 +315,7 @@ F 1 "CONN_01X01" V 8650 2450 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 8550 2450 60  0001 C CNN
 F 3 "" H 8550 2450 60  0000 C CNN
 	1    8550 2450
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	8550 2250 8550 2050
@@ -332,7 +331,7 @@ F 1 "0.1uF" H 7675 2400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7688 2350 30  0001 C CNN
 F 3 "" H 7650 2500 60  0000 C CNN
 	1    7650 2500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 7650 2350 0    60   ~ 0
 3V3_0.3A_LL
@@ -345,9 +344,9 @@ F 1 "GNDPWR" H 7650 2520 50  0000 C CNN
 F 2 "" H 7650 2600 60  0000 C CNN
 F 3 "" H 7650 2600 60  0000 C CNN
 	1    7650 2650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
-Text Notes 7150 6950 0    157  ~ 0
+Text Notes 7350 7550 0    118  ~ 0
 Chickadee Expansion Port
 Text HLabel 4500 3500 0    60   Input ~ 0
 +5V
@@ -364,7 +363,7 @@ F 1 "+5V" H 4600 3640 50  0000 C CNN
 F 2 "" H 4600 3500 60  0000 C CNN
 F 3 "" H 4600 3500 60  0000 C CNN
 	1    4600 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 2150 1700 2    60   ~ 0
 TIM1
@@ -618,4 +617,6 @@ Text Label 3550 5600 0    60   ~ 0
 SPI1_MOSI
 Text Label 6850 5600 0    60   ~ 0
 SPI1_MOSI
+Text Notes 7050 7050 0    60   ~ 0
+Copyright 2016 Chickadee Tech LLC\n\nThis work is licensed under the Creative Commons Attribution 4.0 International License.\nTo view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/\nor send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.\n
 $EndSCHEMATC
